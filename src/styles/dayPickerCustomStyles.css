@@ -1,0 +1,17 @@
+.rdp-root {
+  --rdp-accent-background-color: var(--color-rgreen-300);
+  --rdp-accent-color: var(--color-rgreen-600);
+  --rdp-today-color: var(--color-rgreen-500);
+  --rdp-months-gap: 2rem;
+  --rdp-day_button-height: 44px;
+  --rdp-day_button-width: 44px;
+}
+
+.rdp-root table {
+  border-collapse: separate;
+  border-spacing: 0 0.2rem;
+}
+
+[data-today="true"] {
+  font-weight: bold;
+}

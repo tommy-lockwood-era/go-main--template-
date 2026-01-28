@@ -1,0 +1,50 @@
+@layer monochromatic, complementary, analogous, triadic, neutral;
+
+@layer monochromatic {
+  * {
+    --base: oklch(0.3548 0.0574 161.28);
+    --base50:oklch(0.5048 0.0574 161.28);
+    --base65:oklch(0.6548 0.0574 161.28);
+    --base80:oklch(0.8048 0.0574 161.28);
+    --base95:oklch(0.9548 0.0574 161.28);
+    --base: hsl(151, 42, 19); /* Lightness get lighter as you increase */
+    --base34:hsl(151, 40, 34);
+    --base49:hsl(151, 25, 53);
+    --base64:hsl(151, 40, 64);
+    --base79:hsl(151, 40, 79);
+  }
+}
+
+@layer complementary {
+  * {
+    --base: #1c4532;
+    --base-white: oklch(0.9882 0.0154 161.28);
+    --complement: oklch(0.2933 0.0679 353.04);
+    --neutral-comp: oklch(0.4481 0.0494 353.04);
+    --light-complement: oklch(0.9647 0.0198 353.04);
+  }
+}
+
+@layer analogous {
+  * {
+    --base: #1c4532;
+    --accent1: oklch(0.5015 0.0574 258.52);
+    --accent2: oklch(0.5015 0.0747 274.54);
+  }
+}
+
+@layer triadic {
+  * {
+    --base: #1c4532;
+    --accent1: oklch(0.2771 0.0764 306.88);
+    --accent2: oklch(0.3976 0.0442 69.41);
+  }
+}
+
+@layer neutral {
+  * {
+    --base: #1c4532;
+    --neutral1: oklch(72.924% 0.04789 71.236);
+    --neutral2: oklch(0.5727 0.0307 161.28);
+  }
+}
